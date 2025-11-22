@@ -9,9 +9,9 @@ const Interests = () => {
       description: 'Passionate about building innovative mobile applications',
     },
     {
-      name: 'Reading Books',
+      name: 'Movies & Series',
       icon: <FaBook className="text-4xl" />,
-      description: 'Love reading technical and motivational books',
+      description: 'Love watch movies and binge-watch series',
     },
     {
       name: 'Playing Computer Games',
