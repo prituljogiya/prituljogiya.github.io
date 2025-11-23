@@ -6,7 +6,7 @@ const Experience = () => {
     {
       company: 'Trentium Solution Pvt Ltd, Ahmedabad',
       role: 'Flutter Developer',
-      duration: 'Sep 2020 – Present',
+      duration: 'Aug 2023 – Present',
       tasks: [
         'Built and developed multiple mobile apps using Flutter framework',
         'Developed financial trading application (Bazaar app) with live trading software and WebSocket integration',
