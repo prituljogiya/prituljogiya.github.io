@@ -28,7 +28,7 @@ const Contact = () => {
     {
       icon: <FaLinkedin />,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/yourprofile',
+      value: 'prituljogiya',
       link: 'https://www.linkedin.com/in/prituljogiya/',
       color: 'text-blue-500',
     },
