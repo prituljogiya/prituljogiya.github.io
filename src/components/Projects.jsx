@@ -19,14 +19,9 @@ const Projects = () => {
       ],
       technologies: ['Dart', 'Flutter', 'REST API', 'WebSocket', 'Push Notifications'],
       platforms: 'macOS, Windows, Android, iOS',
-      screenshots: [
-        'https://via.placeholder.com/400x800/02569B/ffffff?text=Bazaar+Home',
-        'https://via.placeholder.com/400x800/0175C2/ffffff?text=Trading+Screen',
-        'https://via.placeholder.com/400x800/13B9FD/ffffff?text=Market+Analysis',
-        'https://via.placeholder.com/400x800/02569B/ffffff?text=Account+Monitor',
-      ],
+      liveAppUrl: '',
+      screenshots: [],
       playStoreLink: '#',
-      githubLink: '#',
     },
     {
       id: 2,
@@ -42,10 +37,15 @@ const Projects = () => {
       ],
       technologies: ['Dart', 'Flutter', 'REST API', 'Firebase Auth', 'Push Notifications', 'Google Maps'],
       platforms: 'Android, iOS',
+      liveAppUrl: '',
       screenshots: [
-        'https://via.placeholder.com/400x800/02569B/ffffff?text=Garage+List',
-        'https://via.placeholder.com/400x800/0175C2/ffffff?text=Service+Packages',
-        'https://via.placeholder.com/400x800/13B9FD/ffffff?text=Live+Tracking',
+      
+        '/Screenshot_20251203_151350.png',
+        '/Screenshot_20251203_151409.png',
+        '/Screenshot_20251203_151418.png',
+        '/Screenshot_20251203_151427.png',
+
+
       ],
       playStoreLink: '#',
       githubLink: '#',
@@ -63,17 +63,19 @@ const Projects = () => {
       ],
       technologies: ['Dart', 'Flutter', 'REST API', 'OCR', 'MRZ Scanner'],
       platforms: 'Android, iOS',
+      liveAppUrl: '',
       screenshots: [
-        'https://via.placeholder.com/400x800/02569B/ffffff?text=Home+Screen',
-        'https://via.placeholder.com/400x800/0175C2/ffffff?text=OCR+Scan',
-        'https://via.placeholder.com/400x800/13B9FD/ffffff?text=MRZ+Scanner',
+
+        '/Screenshot_20251203_151502.png',
+        '/Screenshot_20251203_151514.png',
+        '/Screenshot_20251203_151536.png',
+        '/Screenshot_20251203_151550.png',
       ],
       playStoreLink: '#',
-      githubLink: '#',
     },
     {
       id: 4,
-      name: 'KhataBook App',
+      name: 'Angadiya',
       description: 'Application created to manage clients daily account credit, debit details and generate Excel reports. Send all details to WhatsApp directly.',
       responsibilities: [
         'Coordinated with client to gather requirements',
@@ -84,13 +86,11 @@ const Projects = () => {
       ],
       technologies: ['Dart', 'Flutter', 'REST API', 'Excel Generation', 'WhatsApp API'],
       platforms: 'Android, iOS, Windows',
+      liveAppUrl: 'https://play.google.com/store/apps/details?id=com.khatabook.khatabookapp',
       screenshots: [
-        'https://via.placeholder.com/400x800/02569B/ffffff?text=Account+List',
-        'https://via.placeholder.com/400x800/0175C2/ffffff?text=Credit+Debit',
-        'https://via.placeholder.com/400x800/13B9FD/ffffff?text=Reports',
+      
       ],
-      playStoreLink: '#',
-      githubLink: '#',
+      playStoreLink: '',
     },
     {
       id: 5,
@@ -104,13 +104,10 @@ const Projects = () => {
       ],
       technologies: ['Dart', 'Flutter', 'REST API', 'Firebase'],
       platforms: 'Android, iOS',
+      liveAppUrl: 'https://play.google.com/store/apps/details?id=com.aksharhospital',
       screenshots: [
-        'https://via.placeholder.com/400x800/02569B/ffffff?text=Doctors+List',
-        'https://via.placeholder.com/400x800/0175C2/ffffff?text=Appointments',
-        'https://via.placeholder.com/400x800/13B9FD/ffffff?text=Schedule',
       ],
       playStoreLink: '#',
-      githubLink: '#',
     },
     {
       id: 6,
@@ -125,34 +122,27 @@ const Projects = () => {
       ],
       technologies: ['Dart', 'Flutter', 'REST API', 'Social Media APIs', 'Chat System'],
       platforms: 'Android, iOS (LIVE)',
-      screenshots: [
-        'https://via.placeholder.com/400x800/02569B/ffffff?text=Events',
-        'https://via.placeholder.com/400x800/0175C2/ffffff?text=Social+Media',
-        'https://via.placeholder.com/400x800/13B9FD/ffffff?text=Chat',
-      ],
+      liveAppUrl: 'https://play.google.com/store/apps/details?id=com.wlcm.club&pcampaignid=web_share',
+      screenshots: [],
       playStoreLink: '#',
-      githubLink: '#',
     },
-    // {
-    //   id: 7,
-    //   name: 'Affinity Plus - Tapp Engine',
-    //   description: 'App based on US stock market with various functionalities like learning about stocks, wealth creation, stock buy and sell features.',
-    //   responsibilities: [
-    //     'Understood requirements',
-    //     'Created UI screens',
-    //     'API integration for modules',
-    //     'Stock market data integration',
-    //   ],
-    //   technologies: ['Dart', 'Flutter', 'REST API', 'Stock Market APIs'],
-    //   platforms: 'Android, iOS',
-    //   screenshots: [
-    //     'https://via.placeholder.com/400x800/02569B/ffffff?text=Market+View',
-    //     'https://via.placeholder.com/400x800/0175C2/ffffff?text=Stock+Details',
-    //     'https://via.placeholder.com/400x800/13B9FD/ffffff?text=Buy+Sell',
-    //   ],
-    //   playStoreLink: '#',
-    //   githubLink: '#',
-    // },
+    {
+      id: 7,
+      name: 'Mahakali Mata',
+      description: 'Mahakali Mata Mandir Trust App brings devotees closer to the temple by offering spiritual services, online donations, and event updates – all in one place.',
+      responsibilities: [
+        'UI/UX design and development',
+        'REST API Integration',
+        'Online donation system implementation',
+        'Event management features',
+        'Push notifications setup',
+      ],
+      technologies: ['Dart', 'Flutter', 'REST API', 'Payment Gateway', 'Push Notifications'],
+      platforms: 'Android, iOS',
+      liveAppUrl: 'https://play.google.com/store/apps/details?id=com.trentiums.mahakali.mata.app',
+      screenshots: [],
+      playStoreLink: '#',
+    },
   ]
 
   const containerVariants = {
@@ -203,12 +193,18 @@ const Projects = () => {
               className="glass rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300"
             >
               {/* Screenshot Preview */}
-              <div className="relative h-64 overflow-hidden">
-                <img
-                  src={project.screenshots[0]}
-                  alt={project.name}
-                  className="w-full h-full object-cover"
-                />
+              <div className="relative h-64 overflow-hidden bg-gradient-to-br from-accent/20 to-secondary/20">
+                {project.screenshots && project.screenshots.length > 0 ? (
+                  <img
+                    src={project.screenshots[0]}
+                    alt={project.name}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center">
+                    <span className="text-4xl font-bold text-white/50">{project.name.charAt(0)}</span>
+                  </div>
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
                   <h3 className="text-2xl font-bold text-white mb-2">{project.name}</h3>
@@ -246,7 +242,20 @@ const Projects = () => {
                   >
                     View Details
                   </motion.button>
-                  {project.githubLink && (
+                  {project.liveAppUrl && project.liveAppUrl.trim() !== '' && (
+                    <motion.a
+                      href={project.liveAppUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      className="p-2 glass rounded-lg text-white hover:bg-white/10 transition-colors"
+                      title="Live App"
+                    >
+                      <FaExternalLinkAlt />
+                    </motion.a>
+                  )}
+                  {project.githubLink && project.githubLink !== '#' && (
                     <motion.a
                       href={project.githubLink}
                       target="_blank"
@@ -258,7 +267,7 @@ const Projects = () => {
                       <FaGithub />
                     </motion.a>
                   )}
-                  {project.playStoreLink && (
+                  {project.playStoreLink && project.playStoreLink !== '#' && (
                     <motion.a
                       href={project.playStoreLink}
                       target="_blank"
@@ -338,22 +347,54 @@ const Projects = () => {
                   </div>
                 </div>
 
-                {/* <div className="mb-6">
-                  <h4 className="text-xl font-semibold text-white mb-3">Screenshots:</h4>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    {selectedProject.screenshots.map((screenshot, index) => (
-                      <img
-                        key={index}
-                        src={screenshot}
-                        alt={`Screenshot ${index + 1}`}
-                        className="rounded-lg border-2 border-accent/30 hover:border-accent transition-colors"
-                      />
-                    ))}
+                
+                {selectedProject.liveAppUrl && selectedProject.liveAppUrl.trim() !== '' ? (
+                  <div className="mb-6">
+                    <h4 className="text-xl font-semibold text-white mb-3">Live App:</h4>
+                    <motion.a
+                      href={selectedProject.liveAppUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-accent to-secondary rounded-lg text-white font-semibold hover:shadow-lg transition-shadow"
+                    >
+                      <FaExternalLinkAlt /> Visit Live App
+                    </motion.a>
                   </div>
-                </div>
+                ) : (
+                  selectedProject.screenshots && selectedProject.screenshots.length > 0 && (
+                    <div className="mb-6">
+                      <h4 className="text-xl font-semibold text-white mb-3">Screenshots:</h4>
+                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        {selectedProject.screenshots.map((screenshot, index) => (
+                          <img
+                            key={index}
+                            src={screenshot}
+                            alt={`${selectedProject.name} Screenshot ${index + 1}`}
+                            className="rounded-lg border-2 border-accent/30 hover:border-accent transition-colors cursor-pointer"
+                            onClick={() => window.open(screenshot, '_blank')}
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  )
+                )} 
 
-                <div className="flex gap-4">
-                  {selectedProject.playStoreLink && (
+                {/* <div className="flex gap-4 flex-wrap">
+                  {selectedProject.liveAppUrl && selectedProject.liveAppUrl.trim() !== '' && (
+                    <motion.a
+                      href={selectedProject.liveAppUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                      className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-accent to-secondary rounded-lg text-white font-semibold"
+                    >
+                      <FaExternalLinkAlt /> Live App
+                    </motion.a>
+                  )}
+                  {selectedProject.playStoreLink && selectedProject.playStoreLink !== '#' && (
                     <motion.a
                       href={selectedProject.playStoreLink}
                       target="_blank"
@@ -365,7 +406,7 @@ const Projects = () => {
                       <FaExternalLinkAlt /> Play Store
                     </motion.a>
                   )}
-                  {selectedProject.githubLink && (
+                  {selectedProject.githubLink && selectedProject.githubLink !== '#' && (
                     <motion.a
                       href={selectedProject.githubLink}
                       target="_blank"
